@@ -20,7 +20,6 @@
 
 # 2️⃣ Executive Summary
 
-**Short summary (1-2 sentences):**  
 The aplication includes several critical vunerabilities that should be fixed.
 **Overall risk level:** (Low / Medium / High / Critical)
 
@@ -56,12 +55,6 @@ The aplication includes several critical vunerabilities that should be fixed.
 | F-03 | 🟠 Medium | The registration form lacks an anti csrf token allowing attcakers to force authenticated users to submit unintended requests |
 | F-04 | 🟠 Medium | The application does not set key headers |
 | F-05 | 🟡 Low | Backend errors return generic 500 internal server error potentiaaly leaking internal application behavior|
-
----
-
-> [!NOTE]
-> Include up to 5 findings total.   
-> Keep each description short and clear.
 
 ---
 
