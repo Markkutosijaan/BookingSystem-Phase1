@@ -55,7 +55,7 @@ The aplication includes several critical vunerabilities that should be fixed.
 | F-02 | 🔴 High | The username parameter is improperly validated and may allow directory traversal attacks|
 | F-03 | 🟠 Medium | The registration form lacks an anti csrf token allowing attcakers to force authenticated users to submit unintended requests |
 | F-04 | 🟠 Medium | The application does not set key headers |
-| F-03 | 🟡 Low | Backend errors return generic 500 internal server error potentiaaly leaking internal application behavior|
+| F-05 | 🟡 Low | Backend errors return generic 500 internal server error potentiaaly leaking internal application behavior|
 
 ---
 
