@@ -69,15 +69,5 @@ The aplication includes several critical vunerabilities that should be fixed.
 
 **Purpose:**  
 - Attach or link your OWASP ZAP scan results (Markdown format preferred).
+- https://github.com/Markkutosijaan/BookingSystem-Phase1/blob/main/BookingSystem-Phase1/zap_report_round1.md
 
----
-
-**Instructions:**
-1. Check lecture recordings
-2. Save the report as `zap_report_round1.md` and link it below.
-
----
-> [!NOTE]
-> 📁 **Attach full report:** → `check itslearning` → **Add a link here**
-
----
