@@ -9,10 +9,12 @@
 **Test environment & dates:**  
 - Start:  10:06 2.2.2026
 - End:  ---
-- Test environment details (OS, runtime, DB, browsers): Zap
+- Test Tool: Zap
+- Target: http://localhost:8001
+- Application type: Web application
 
 **Assumptions & constraints:**  
-- e.g., credentials provided, limited time, etc.
+- Local development environment (local host)
 
 ---
 
@@ -49,9 +51,11 @@ The aplication includes several critical vunerabilities that should be fixed.
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
+| F-01 | 🔴 High | The username parameter is vunerable SQL injection|
+| F-02 | 🔴 High | The username parameter is improperly validated and may allow directory traversal attacks|
+| F-03 | 🟠 Medium | The registration form lacks an anti csrf token allowing attcakers to force authenticated users to submit unintended requests |
+| F-04 | 🟠 Medium | The application does not set key headers |
+| F-03 | 🟡 Low | Backend errors return generic 500 internal server error potentiaaly leaking internal application behavior|
 
 ---
 
