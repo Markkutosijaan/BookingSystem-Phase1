@@ -1,7 +1,7 @@
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name:  Iiro Kaarta
 
 **Purpose:**  
 - Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
@@ -12,7 +12,7 @@
 - Test approach: Gray-box / Black-box / White-box
 
 **Test environment & dates:**  
-- Start:  
+- Start:  10:06 2.2.2026
 - End:  
 - Test environment details (OS, runtime, DB, browsers):
 
@@ -28,7 +28,7 @@
 **Overall risk level:** (Low / Medium / High / Critical)
 
 **Top 5 immediate actions:**  
-1.  
+1.  Validointia ei ole
 2.  
 3.  
 4.  
