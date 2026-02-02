@@ -4,17 +4,12 @@
 - Name:  Iiro Kaarta
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
-
-**Scope:**  
-- Tested components:  
-- Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+- Evaluate the security of the registeration flow and backend error handling.
 
 **Test environment & dates:**  
 - Start:  10:06 2.2.2026
-- End:  
-- Test environment details (OS, runtime, DB, browsers):
+- End:  ---
+- Test environment details (OS, runtime, DB, browsers): Zap
 
 **Assumptions & constraints:**  
 - e.g., credentials provided, limited time, etc.
@@ -24,15 +19,15 @@
 # 2️⃣ Executive Summary
 
 **Short summary (1-2 sentences):**  
-
+The aplication includes several critical vunerabilities that should be fixed.
 **Overall risk level:** (Low / Medium / High / Critical)
 
 **Top 5 immediate actions:**  
-1.  Validointia ei ole
-2.  
-3.  
-4.  
-5.  
+1.  Implement serverside input validation
+2.  Fix SQL injection vunerabilities
+3.  Implement security headers
+4.  Fix static file pahts and prevent internal errors from leaking to regular users
+5.  Add csrf protection to all post forms
 
 ---
 
